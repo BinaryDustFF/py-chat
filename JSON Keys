@@ -1,0 +1,4 @@
+key -> "MSG", src: source, dest: destination, arg: message
+key -> "STOP" (stop communication with client/server)
+key -> "ERR", arg: cause
+key -> "LOGIN", arg: username/reason, state: REQUEST/REJECTED/SUCCESSFUL
